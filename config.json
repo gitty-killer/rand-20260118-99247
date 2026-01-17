@@ -1,0 +1,13 @@
+{
+  "project_title": "Content Moderation Queue",
+  "goal": "Rank moderation items and highlight high-risk content.",
+  "entity_name": "flag",
+  "amount_label": "reports",
+  "score_label": "risk_score",
+  "categories": [
+    "spam",
+    "abuse",
+    "copyright",
+    "policy"
+  ]
+}

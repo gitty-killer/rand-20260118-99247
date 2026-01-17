@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "flag-01",
+      "name": "flag_01",
+      "category": "spam",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "flag-02",
+      "name": "flag_02",
+      "category": "abuse",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "flag-03",
+      "name": "flag_03",
+      "category": "copyright",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "flag-04",
+      "name": "flag_04",
+      "category": "policy",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "flag-05",
+      "name": "flag_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "flag-06",
+      "name": "flag_06",
+      "category": "abuse",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "flag-07",
+      "name": "flag_07",
+      "category": "copyright",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "flag-08",
+      "name": "flag_08",
+      "category": "policy",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "flag-09",
+      "name": "flag_09",
+      "category": "spam",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "flag-10",
+      "name": "flag_10",
+      "category": "abuse",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "flag-11",
+      "name": "flag_11",
+      "category": "copyright",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "flag-12",
+      "name": "flag_12",
+      "category": "policy",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "flag-12",
+    "issue_count": 1
+  }
+}
