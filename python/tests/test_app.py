@@ -10,8 +10,9 @@ from lib import load_data, validate_items, compute_summary
 
 class TestPipeline(unittest.TestCase):
     def setUp(self):
-        self.payload = load_data('data/sample.json')
-        self.config = load_data('config.json')
+        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+        self.payload = load_data(os.path.join(base_dir, "data", "sample.json"))
+        self.config = load_data(os.path.join(base_dir, "config.json"))
 
     def test_summary_matches_expected(self):
         items = self.payload['items']
