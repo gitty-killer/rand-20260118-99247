@@ -59,5 +59,4 @@ def make_report(config: Dict, summary: Summary, issues: List[str]) -> str:
     for key, value in summary.category_totals.items():
         lines.append(f"- {key}: {value}")
     lines.append(f"Issues: {len(issues)}")
-    return "
-".join(lines)
+    return "\n".join(lines)
